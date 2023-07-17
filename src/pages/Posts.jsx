@@ -67,7 +67,7 @@ function Posts() {
                 : <PostList posts={sortedAndSearchPost}
                             fetchPosts={fetchPosts}
                             tittle={"Посты"}
-                            remove={removePost}/>}:
+                            remove={removePost}/>}
             <Pagination
                 totalPages={totalPages}
                 editPage={editPage}
